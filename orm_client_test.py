@@ -43,6 +43,6 @@ update_object = {
 
 # print('-----------update_response----------', update_response)
 
-delete_response = client.delete(body)
+delete_response = client.delete()
 
 print('-----------delete_response-----------', delete_response)
